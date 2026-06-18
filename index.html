@@ -1,89 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agrinho 2026</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <header class="cabecalho">
+        <h2 class="cabecalho-titulo">Agro<span>Futuro</span></h2>
+        <nav class="cabecalho-menu">
+            <a href="#" class="cabecalho-menu-item">O Problema</a>
+            <a href="#" class="cabecalho-menu-item">Solução</a>
+            <a href="#" class="cabecalho-menu-item">Sobre</a>
+        </nav>
+        <button class="cabecalho-menu-botao">Modo Escuro 🌓</button>
+    </header>
 
-    <body>
-        <header class="cabecalho">
-            <h2 class="cabecalho-titulo">Agro<span>Futuro</span></h2>
-            <nav class="cabecalho-menu">
-                <a href="#" class="cabecalho-menu-item">O problema</a>
-                <a href="#" class="cabecalho-menu-item">Solução</a>
-                <a href="#" class="cabecalho-menu-item">O problema</a>
-            </nav>
-            <button class="cabecalho-menu-botao">Modo Escuro🌓</button>
-        </header>
+    <section class="problema">
+        <div class="problema-textos">
+            <h1 class="problema-titulo">O Agro é forte e o futuro é Sustentável</h1>
+            <p class="problema-paragrafo">
+                Como a tecnologia e a inteligência artificial estão salvando o planeta e otimizando a produção de alimentos.
+            </p>
+        </div>
+        <div class="problema-imagem">
+            <img src="familianocampo.jpg" alt="Família no campo" class="problema-foto">
+        </div>
+    </section>
 
-        <section class="problema">
-            <div class="problema-textos">
-                <h2 class="problema-titulo">O Agro
-                    é forte e o futuro é Sustentável
-                </h2>
-                <p class="problema-paragrafo">
-                    Como a tecnologia e a inteligência artificial estão salvando o planeta e otimizando a produção de alimentos.
-                </p>
-            </div>
-            <div class="problema-imagem">
-                <img src="familianocampo.jpg" alt="familia no campo " class="problema-foto">
-            </div>
-        </section>
-
-    </body>
-
+</body>
 </html>
-
-STYLE
-
-
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
-}
-
-.cabecalho-titulo{
-    font-size: 3rem;
-    color: black;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
-.cabecalho-menu{
-    display: block;
-    unicode-bidi: isolate;
-}
-
-.cabecalho-menu-item{
-    text-decoration: none;
-    color: red;
-    margin: 0 15px;
-    font-weight: 600;
-    transition: color 0.2s;
-}
-
-.cabecalho-menu-botao{
-    background-color: black;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: transform 0.2s;
-}
-
-.problema{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 5%;
-    min-height: 80vh;
-    gap: 30px;
-}
